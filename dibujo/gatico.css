@@ -1,0 +1,344 @@
+body{
+  padding: 0;
+  margin:0;
+  background-color:#135e96 ;
+}
+.container{
+  height: 500px;
+  width: 350px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+.luni{
+  position: relative;
+  top: 150px;
+  left:200px;
+}
+.cara{
+  background-color: black;
+  height: 90px;
+  width: 150px;
+  border-radius: 30px;
+}
+.oreja1,.orejar{
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid black;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  position: relative;
+  z-index: -1;
+}
+.oreja1{
+  bottom:35px;
+  transform: rotate(-30deg);
+}
+.orejar{
+  bottom: 85px;
+  left: 110px;
+  transform: rotate(30deg);
+}
+.adentro1{
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid #d36149;
+  border-left: 25px solid transparent;
+  right: 25px;
+  position: relative;
+}
+.adentro2{
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid #d36149;
+  border-right: 25px solid transparent;
+  position: relative;
+}
+.ojo1,.ojo2{
+  background-color: yellowgreen;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: relative;
+}
+.ojo1{
+  bottom: 75px;
+  left: 30px;
+}
+.ojo2{
+  bottom: 105px;
+  left: 90px;
+}
+.eyeball{
+  height: 24px;
+  background-color: #262626;
+  width: 24px;
+  border-radius: 50%;
+  position: relative;
+  top: 3px;
+  left: 3px;
+}
+.nose{
+  border-top: 8px solid darkgoldenrod;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  position: relative;
+  bottom: 110px;
+  left: 68px;
+}
+.l1,.l2{
+background-color: #d36149;
+height: 8px;
+width: 1px;
+position: relative;
+}
+.l1{
+  transform: rotate(45deg);
+  right: 4px;
+  bottom: 1.5px;
+}
+.l2{
+  transform: rotate(-45deg);
+  bottom: 10px;
+  left: 3px;
+}
+.cuerpo{
+  background-color: black;
+  height: 120px;
+  width: 130px;
+  position: relative;
+  left: 30px;
+  bottom: 5px;
+  border-radius: 0 65px 0 0;
+}
+.patita1,.patita2{
+  background-color: black;
+  height: 10px;
+  width: 22px;
+  position: relative;
+  border-radius: 0 0px 10px 10px;
+}
+.patita1{
+  top:120px;
+
+}
+.patita2{
+  top: 110px;
+  left: 50px;
+}
+.colita{
+  background-color: black;
+  width: 100px;
+  height: 20px;
+  position: relative;
+  top: 80px;
+  left: 100px;
+  border-radius: 0 20px 20px 0;
+}
+.shadow{
+  background-color: rgba(8,8,8,0.5);
+  height: 30px;
+  width: 150px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 15px;
+  left: 20px;
+  z-index: -1;
+}
+.gordi{
+  position: relative;
+  top: -90px;
+  right:200px;
+}
+.carag{
+  background-color: gainsboro;
+  height: 90px;
+  width: 150px;
+  border-radius: 30px;
+  position: relative;
+}
+.oreja1g,.orejarg{
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  position: relative;
+  z-index: -1;
+}
+.oreja1g{
+  bottom:35px;
+  transform: rotate(-30deg);
+  color:orange;
+}
+.orejarg{
+  bottom: 85px;
+  left: 110px;
+  transform: rotate(30deg);
+}
+.adentro1g{
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid #d36149;
+  border-left: 25px solid transparent;
+  right: 25px;
+  position: relative;
+}
+.adentro2g{
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid #d36149;
+  border-right: 25px solid transparent;
+  position: relative;
+}
+.frentesita{
+  background-color: rgb(221, 159, 52); 
+  height: 50px; 
+  width: 150px; 
+  border-radius: 40%; 
+  position: absolute; 
+  top: -5px; 
+  left: 50%; 
+  transform: translateX(-50%);
+}
+.rightside{
+  background-color: black; 
+  height: 50px; 
+  width: 70px; 
+  border-radius: 20px 65px 50px 150px; 
+  position: absolute; 
+  top: -5px; 
+  left: 78%; 
+  transform: translateX(-50%);
+}
+.ojo1g,.ojo2g{
+  background-color: yellowgreen;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: relative;
+}
+.ojo1g{
+  bottom: 75px;
+  left: 30px;
+}
+.ojo2g{
+  bottom: 105px;
+  left: 90px;
+}
+.eyeballg{
+  height: 24px;
+  background-color: #262626;
+  width: 10px;
+  border-radius: 80%;
+  position: relative;
+  top: 3px;
+  left: 10px;
+}
+.noseg{
+  border-top: 8px solid darkgoldenrod;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  position: relative;
+  bottom: 110px;
+  left: 68px;
+}
+.l1g,.l2g{
+background-color: #d36149;
+height: 8px;
+width: 1px;
+position: relative;
+}
+.l1g{
+  transform: rotate(45deg);
+  right: 4px;
+  bottom: 1.5px;
+}
+.l2g{
+  transform: rotate(-45deg);
+  bottom: 10px;
+  left: 3px;
+}
+.cuerpog{
+  background-color: gainsboro;
+  height: 120px;
+  width: 130px;
+  position: relative;
+  left: -15px;
+  bottom: 5px;
+  border-radius: 65px 0px 0 0;
+}
+.manchita1naranja{
+  background-color:rgb(221, 159, 52) ; 
+  height: 50px; 
+  width: 117px; 
+  border-radius: 160px 90px 190px 60px; 
+  position: absolute; 
+  top: 7px; 
+  left: 55%; 
+  transform: translateX(-50%);
+}
+.manchita2negra{
+  background-color:black ; 
+  height: 70px; 
+  width: 90px; 
+  border-radius: 145px 100px 200px 60px; 
+  position: absolute; 
+  top: 12px; 
+  left: 35%; 
+  transform: translateX(-50%);
+  rotate: (90deg);
+}
+.manchita3naranja{
+  background-color:rgb(221, 159, 52) ; 
+  height: 50px; 
+  width: 50px; 
+  border-radius: 75px 90px 190px 60px; 
+  position: absolute; 
+  top: 60px; 
+  left: 19.5%; 
+  transform: translateX(-50%);
+}
+.sharp{
+  background-color:gainsboro ; 
+  height: 35px; 
+  width: 150px; 
+  border-radius: 50%; 
+  position: absolute; 
+  top: 60px; 
+  left: -10%; 
+  transform: translateX(-50%);
+  transform: rotate(-30deg);
+}
+.patita1g,.patita2g{
+  background-color: gainsboro;
+  height: 10px;
+  width: 22px;
+  position: relative;
+  border-radius: 0 0px 10px 10px;
+}
+.patita1g{
+  top:120px;
+  left:50px;
+
+}
+.patita2g{
+  top: 110px;
+  left: 100px;
+}
+.colitag{
+  background-color: gainsboro;
+  width: 100px;
+  height: 20px;
+  position: relative;
+  top: 80px;
+  left: -90px;
+  border-radius: 50px 20px 20px 20px;
+}
