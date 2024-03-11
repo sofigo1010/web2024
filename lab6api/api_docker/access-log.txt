@@ -1,0 +1,8 @@
+
+        Timestamp: 2024-03-11T04:33:06.959Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {"title":"Primero","content":"Hola vlog estoy aburridisima modificado","picture":"nimierda"}
+        Response Body: [{"id":1,"title":"Primero","content":"Hola vlog estoy aburridisima modificado","picture":"nimierda"}]
+        ------------------------------
+    
