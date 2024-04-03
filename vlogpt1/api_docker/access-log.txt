@@ -1,0 +1,1184 @@
+
+        Timestamp: 2024-03-11T04:33:06.959Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {"title":"Primero","content":"Hola vlog estoy aburridisima modificado","picture":"nimierda"}
+        Response Body: [{"id":1,"title":"Primero","content":"Hola vlog estoy aburridisima modificado","picture":"nimierda"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T00:46:22.842Z
+        URL: /
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T00:46:22.948Z
+        URL: /favicon.ico
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: {"message":"Not Found: Endpoint does not exist"}
+        ------------------------------
+    
+        Timestamp: 2024-03-31T07:32:21.825Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {"title":"Primero","content":"Hola vlog estoy aburridisima modificado","picture":"nimierda"}
+        Response Body: [{"id":1,"title":"Primero","content":"Hola vlog estoy aburridisima modificado","picture":"nimierda"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T07:38:40.570Z
+        URL: /posts
+        HTTP Method: OPTIONS
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T07:38:40.615Z
+        URL: /posts
+        HTTP Method: POST
+        Request Body: {"title":"Un título para el post","content":"dio mio","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"}
+        Response Body: {"message":"Internal Server Error"}
+        ------------------------------
+    
+        Timestamp: 2024-03-31T07:43:42.338Z
+        URL: /posts
+        HTTP Method: POST
+        Request Body: {"title":"segundo","content":"maris","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg/revision/latest?cb=20231223041813"}
+        Response Body: {"message":"Internal Server Error"}
+        ------------------------------
+    
+        Timestamp: 2024-03-31T07:44:41.754Z
+        URL: /posts
+        HTTP Method: POST
+        Request Body: {"title":"segundo","content":"maris","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg/revision/latest?cb=20231223041813"}
+        Response Body: {"message":"Internal Server Error"}
+        ------------------------------
+    
+        Timestamp: 2024-03-31T07:46:21.425Z
+        URL: /posts
+        HTTP Method: POST
+        Request Body: {"title":"segundo","content":"maris","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"}
+        Response Body: {"message":"Internal Server Error"}
+        ------------------------------
+    
+        Timestamp: 2024-03-31T07:47:35.104Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {"title":"segundo","content":"maris","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"}
+        Response Body: [{"id":1,"title":"Primero","content":"Hola vlog estoy aburridisima modificado","picture":"nimierda"},{"id":2,"title":"Un título para el post","content":"dio mio","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"},{"id":3,"title":"segundo","content":"maris","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg/revision/latest?cb=20231223041813"},{"id":4,"title":"segundo","content":"maris","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg/revision/latest?cb=20231223041813"},{"id":5,"title":"segundo","content":"maris","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T07:47:58.782Z
+        URL: /posts
+        HTTP Method: DELETE
+        Request Body: {"title":"segundo","content":"maris","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"}
+        Response Body: {"message":"Not Found: Endpoint does not exist"}
+        ------------------------------
+    
+        Timestamp: 2024-03-31T07:48:04.138Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {"title":"segundo","content":"maris","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"}
+        Response Body: [{"id":1,"title":"Primero","content":"Hola vlog estoy aburridisima modificado","picture":"nimierda"},{"id":2,"title":"Un título para el post","content":"dio mio","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"},{"id":3,"title":"segundo","content":"maris","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg/revision/latest?cb=20231223041813"},{"id":4,"title":"segundo","content":"maris","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg/revision/latest?cb=20231223041813"},{"id":5,"title":"segundo","content":"maris","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T07:48:57.778Z
+        URL: /posts:id
+        HTTP Method: DELETE
+        Request Body: {"id":1}
+        Response Body: {"message":"Not Found: Endpoint does not exist"}
+        ------------------------------
+    
+        Timestamp: 2024-03-31T07:49:04.882Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {"id":1}
+        Response Body: [{"id":1,"title":"Primero","content":"Hola vlog estoy aburridisima modificado","picture":"nimierda"},{"id":2,"title":"Un título para el post","content":"dio mio","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"},{"id":3,"title":"segundo","content":"maris","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg/revision/latest?cb=20231223041813"},{"id":4,"title":"segundo","content":"maris","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg/revision/latest?cb=20231223041813"},{"id":5,"title":"segundo","content":"maris","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T07:54:06.951Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: [{"id":1,"title":"Primero","content":"Hola vlog estoy aburridisima modificado","picture":"nimierda"},{"id":2,"title":"Un título para el post","content":"dio mio","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"},{"id":3,"title":"segundo","content":"maris","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg/revision/latest?cb=20231223041813"},{"id":4,"title":"segundo","content":"maris","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg/revision/latest?cb=20231223041813"},{"id":5,"title":"segundo","content":"maris","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T07:54:17.133Z
+        URL: /posts/1
+        HTTP Method: DELETE
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T07:54:21.126Z
+        URL: /posts/2
+        HTTP Method: DELETE
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T07:54:24.112Z
+        URL: /posts/3
+        HTTP Method: DELETE
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T07:54:27.252Z
+        URL: /posts/4
+        HTTP Method: DELETE
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T07:54:30.561Z
+        URL: /posts/5
+        HTTP Method: DELETE
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T07:54:35.279Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: []
+        ------------------------------
+    
+        Timestamp: 2024-03-31T07:55:29.962Z
+        URL: /posts
+        HTTP Method: OPTIONS
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T07:55:29.978Z
+        URL: /posts
+        HTTP Method: POST
+        Request Body: {"title":"Un título para el post","content":"dio mio","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"}
+        Response Body: {"message":"Internal Server Error"}
+        ------------------------------
+    
+        Timestamp: 2024-03-31T07:55:34.750Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: [{"id":6,"title":"Un título para el post","content":"dio mio","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T07:56:02.683Z
+        URL: /posts
+        HTTP Method: POST
+        Request Body: {"title":"Un título para el post","content":"mamis","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"}
+        Response Body: {"message":"Internal Server Error"}
+        ------------------------------
+    
+        Timestamp: 2024-03-31T08:00:30.017Z
+        URL: /posts
+        HTTP Method: POST
+        Request Body: {"title":"Un título para el post","content":"pruebele ahi","picture":""}
+        Response Body: {"success":true,"message":"Post created successfully","postId":8}
+        ------------------------------
+    
+        Timestamp: 2024-03-31T08:00:52.779Z
+        URL: /posts
+        HTTP Method: OPTIONS
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T08:00:52.808Z
+        URL: /posts
+        HTTP Method: POST
+        Request Body: {"title":"Un título para el post","content":"funciona la api!","picture":"https://sm.ign.com/t/ign_latam/lists/h/how-to-wat/how-to-watch-the-shrek-movies-in-chronological-order_3zwv.1200.jpg"}
+        Response Body: {"success":true,"message":"Post created successfully","postId":9}
+        ------------------------------
+    
+        Timestamp: 2024-03-31T08:05:10.964Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {"title":"Un título para el post","content":"pruebele ahi","picture":""}
+        Response Body: [{"id":6,"title":"Un título para el post","content":"dio mio","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"},{"id":7,"title":"Un título para el post","content":"mamis","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"},{"id":8,"title":"Un título para el post","content":"pruebele ahi","picture":""},{"id":9,"title":"Un título para el post","content":"funciona la api!","picture":"https://sm.ign.com/t/ign_latam/lists/h/how-to-wat/how-to-watch-the-shrek-movies-in-chronological-order_3zwv.1200.jpg"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T08:47:36.664Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: [{"id":6,"title":"Un título para el post","content":"dio mio","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"},{"id":7,"title":"Un título para el post","content":"mamis","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"},{"id":8,"title":"Un título para el post","content":"pruebele ahi","picture":""},{"id":9,"title":"Un título para el post","content":"funciona la api!","picture":"https://sm.ign.com/t/ign_latam/lists/h/how-to-wat/how-to-watch-the-shrek-movies-in-chronological-order_3zwv.1200.jpg"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T08:48:20.913Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: [{"id":6,"title":"Un título para el post","content":"dio mio","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"},{"id":7,"title":"Un título para el post","content":"mamis","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"},{"id":8,"title":"Un título para el post","content":"pruebele ahi","picture":""},{"id":9,"title":"Un título para el post","content":"funciona la api!","picture":"https://sm.ign.com/t/ign_latam/lists/h/how-to-wat/how-to-watch-the-shrek-movies-in-chronological-order_3zwv.1200.jpg"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T08:52:01.794Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: [{"id":6,"title":"Un título para el post","content":"dio mio","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"},{"id":7,"title":"Un título para el post","content":"mamis","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"},{"id":8,"title":"Un título para el post","content":"pruebele ahi","picture":""},{"id":9,"title":"Un título para el post","content":"funciona la api!","picture":"https://sm.ign.com/t/ign_latam/lists/h/how-to-wat/how-to-watch-the-shrek-movies-in-chronological-order_3zwv.1200.jpg"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T08:52:59.698Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: [{"id":6,"title":"Un título para el post","content":"dio mio","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"},{"id":7,"title":"Un título para el post","content":"mamis","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"},{"id":8,"title":"Un título para el post","content":"pruebele ahi","picture":""},{"id":9,"title":"Un título para el post","content":"funciona la api!","picture":"https://sm.ign.com/t/ign_latam/lists/h/how-to-wat/how-to-watch-the-shrek-movies-in-chronological-order_3zwv.1200.jpg"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T08:53:21.554Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {"title":"Un título para el post","content":"pruebele ahi","picture":""}
+        Response Body: [{"id":6,"title":"Un título para el post","content":"dio mio","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"},{"id":7,"title":"Un título para el post","content":"mamis","picture":"https://static.wikia.nocookie.net/dreamworks/images/6/67/Shrek_Profile.jpg"},{"id":8,"title":"Un título para el post","content":"pruebele ahi","picture":""},{"id":9,"title":"Un título para el post","content":"funciona la api!","picture":"https://sm.ign.com/t/ign_latam/lists/h/how-to-wat/how-to-watch-the-shrek-movies-in-chronological-order_3zwv.1200.jpg"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T08:53:31.662Z
+        URL: /posts/6
+        HTTP Method: DELETE
+        Request Body: {"title":"Un título para el post","content":"pruebele ahi","picture":""}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T08:53:35.693Z
+        URL: /posts/7
+        HTTP Method: DELETE
+        Request Body: {"title":"Un título para el post","content":"pruebele ahi","picture":""}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T08:53:39.329Z
+        URL: /posts/8
+        HTTP Method: DELETE
+        Request Body: {"title":"Un título para el post","content":"pruebele ahi","picture":""}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T08:53:43.417Z
+        URL: /posts/9
+        HTTP Method: DELETE
+        Request Body: {"title":"Un título para el post","content":"pruebele ahi","picture":""}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T08:53:48.130Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: []
+        ------------------------------
+    
+        Timestamp: 2024-03-31T08:54:08.607Z
+        URL: /posts
+        HTTP Method: OPTIONS
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T08:54:08.636Z
+        URL: /posts
+        HTTP Method: POST
+        Request Body: {"title":"Un título para el post","content":"Hola vlog jajaajja","picture":"https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2021/08/31/shrek-1.jpeg"}
+        Response Body: {"success":true,"message":"Post created successfully","postId":10}
+        ------------------------------
+    
+        Timestamp: 2024-03-31T08:54:11.838Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: [{"id":10,"title":"Un título para el post","content":"Hola vlog jajaajja","picture":"https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2021/08/31/shrek-1.jpeg"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T08:55:45.653Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: [{"id":10,"title":"Un título para el post","content":"Hola vlog jajaajja","picture":"https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2021/08/31/shrek-1.jpeg"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T08:56:03.232Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T08:56:12.742Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: [{"id":10,"title":"Un título para el post","content":"Hola vlog jajaajja","picture":"https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2021/08/31/shrek-1.jpeg"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:00:32.112Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: [{"id":10,"title":"Un título para el post","content":"Hola vlog jajaajja","picture":"https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2021/08/31/shrek-1.jpeg"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:00:37.545Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:00:42.542Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:00:47.543Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:00:52.535Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:00:57.539Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:01:02.532Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:01:07.535Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:01:12.538Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:01:17.545Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:01:22.534Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:01:27.540Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:01:32.540Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:02:18.540Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:03:18.536Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:03:23.768Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:03:27.110Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:03:32.108Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:03:37.110Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:03:40.219Z
+        URL: /posts
+        HTTP Method: OPTIONS
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:03:40.245Z
+        URL: /posts
+        HTTP Method: POST
+        Request Body: {"title":"Un título para el post","content":"girl ya nadie hace los tv shows como antes, vamos a hablar de eso aquí mamis","picture":"https://assets.teenvogue.com/photos/5ddeb0c16f44a90008d035f5/master/pass/Ent-2010s-Shows_11-27_PROMO.jpg"}
+        Response Body: {"success":true,"message":"Post created successfully","postId":11}
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:03:42.105Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: [{"id":10,"title":"Un título para el post","content":"Hola vlog jajaajja","picture":"https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2021/08/31/shrek-1.jpeg"},{"id":11,"title":"Un título para el post","content":"girl ya nadie hace los tv shows como antes, vamos a hablar de eso aquí mamis","picture":"https://assets.teenvogue.com/photos/5ddeb0c16f44a90008d035f5/master/pass/Ent-2010s-Shows_11-27_PROMO.jpg"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:03:47.112Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:03:52.535Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:03:57.537Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:04:02.548Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:04:07.538Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:04:12.537Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:04:17.537Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:04:22.534Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:04:27.540Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:04:32.547Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:04:37.541Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:04:42.544Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:04:47.538Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:04:52.544Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:04:57.542Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:05:02.539Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:05:07.545Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:05:18.055Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: [{"id":10,"title":"Un título para el post","content":"Hola vlog jajaajja","picture":"https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2021/08/31/shrek-1.jpeg"},{"id":11,"title":"Un título para el post","content":"girl ya nadie hace los tv shows como antes, vamos a hablar de eso aquí mamis","picture":"https://assets.teenvogue.com/photos/5ddeb0c16f44a90008d035f5/master/pass/Ent-2010s-Shows_11-27_PROMO.jpg"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:05:23.074Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:05:28.061Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:05:33.542Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:05:38.536Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:05:43.545Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:05:48.531Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:05:53.545Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:05:58.542Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:06:03.540Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:06:08.542Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:06:13.535Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:06:18.539Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:06:23.535Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:06:28.539Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:06:33.538Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:06:38.546Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:06:43.539Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:06:48.544Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:06:53.545Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:06:58.545Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:07:03.538Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:07:08.540Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:07:13.538Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:07:18.541Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:07:23.546Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:07:28.534Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:07:33.551Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:07:38.545Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:07:43.059Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:07:48.064Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:07:53.544Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:07:58.061Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:08:03.061Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:08:08.548Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:08:13.535Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:08:18.540Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:08:23.541Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:08:34.810Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:08:39.883Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:08:44.823Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:10:14.481Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: [{"id":10,"title":"Un título para el post","content":"Hola vlog jajaajja","picture":"https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2021/08/31/shrek-1.jpeg"},{"id":11,"title":"Un título para el post","content":"girl ya nadie hace los tv shows como antes, vamos a hablar de eso aquí mamis","picture":"https://assets.teenvogue.com/photos/5ddeb0c16f44a90008d035f5/master/pass/Ent-2010s-Shows_11-27_PROMO.jpg"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:10:55.221Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:11:01.942Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:13:51.954Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: [{"id":10,"title":"Un título para el post","content":"Hola vlog jajaajja","picture":"https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2021/08/31/shrek-1.jpeg"},{"id":11,"title":"Un título para el post","content":"girl ya nadie hace los tv shows como antes, vamos a hablar de eso aquí mamis","picture":"https://assets.teenvogue.com/photos/5ddeb0c16f44a90008d035f5/master/pass/Ent-2010s-Shows_11-27_PROMO.jpg"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:16:52.096Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:18:19.195Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: [{"id":10,"title":"Un título para el post","content":"Hola vlog jajaajja","picture":"https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2021/08/31/shrek-1.jpeg"},{"id":11,"title":"Un título para el post","content":"girl ya nadie hace los tv shows como antes, vamos a hablar de eso aquí mamis","picture":"https://assets.teenvogue.com/photos/5ddeb0c16f44a90008d035f5/master/pass/Ent-2010s-Shows_11-27_PROMO.jpg"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:18:56.692Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: [{"id":10,"title":"Un título para el post","content":"Hola vlog jajaajja","picture":"https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2021/08/31/shrek-1.jpeg"},{"id":11,"title":"Un título para el post","content":"girl ya nadie hace los tv shows como antes, vamos a hablar de eso aquí mamis","picture":"https://assets.teenvogue.com/photos/5ddeb0c16f44a90008d035f5/master/pass/Ent-2010s-Shows_11-27_PROMO.jpg"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:19:34.200Z
+        URL: /posts
+        HTTP Method: OPTIONS
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:19:34.247Z
+        URL: /posts
+        HTTP Method: POST
+        Request Body: {"title":"Un título para el post","content":"creo que el final de the originals me va a partir el alma siempre","picture":null}
+        Response Body: {"success":false,"message":"Failed to create post","error":{"message":"Column 'picture' cannot be null","code":"ER_BAD_NULL_ERROR","errno":1048,"sql":"INSERT INTO vlog_posts (title, content, picture) VALUES ('Un título para el post', 'creo que el final de the originals me va a partir el alma siempre', NULL)","sqlState":"23000","sqlMessage":"Column 'picture' cannot be null"}}
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:19:44.627Z
+        URL: /posts
+        HTTP Method: OPTIONS
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:19:44.640Z
+        URL: /posts
+        HTTP Method: POST
+        Request Body: {"title":"Un título para el post","content":"creo que el final de the originals me va a partir el alma siempre","picture":null}
+        Response Body: {"success":false,"message":"Failed to create post","error":{"message":"Column 'picture' cannot be null","code":"ER_BAD_NULL_ERROR","errno":1048,"sql":"INSERT INTO vlog_posts (title, content, picture) VALUES ('Un título para el post', 'creo que el final de the originals me va a partir el alma siempre', NULL)","sqlState":"23000","sqlMessage":"Column 'picture' cannot be null"}}
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:19:45.618Z
+        URL: /posts
+        HTTP Method: POST
+        Request Body: {"title":"Un título para el post","content":"creo que el final de the originals me va a partir el alma siempre","picture":null}
+        Response Body: {"success":false,"message":"Failed to create post","error":{"message":"Column 'picture' cannot be null","code":"ER_BAD_NULL_ERROR","errno":1048,"sql":"INSERT INTO vlog_posts (title, content, picture) VALUES ('Un título para el post', 'creo que el final de the originals me va a partir el alma siempre', NULL)","sqlState":"23000","sqlMessage":"Column 'picture' cannot be null"}}
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:20:47.465Z
+        URL: /posts
+        HTTP Method: OPTIONS
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:20:47.548Z
+        URL: /posts
+        HTTP Method: POST
+        Request Body: {"title":"Un título para el post","content":"creo que el final de the originals me va a partir el alma siempre","picture":null}
+        Response Body: {"success":false,"message":"Failed to create post","error":{"message":"Column 'picture' cannot be null","code":"ER_BAD_NULL_ERROR","errno":1048,"sql":"INSERT INTO vlog_posts (title, content, picture) VALUES ('Un título para el post', 'creo que el final de the originals me va a partir el alma siempre', NULL)","sqlState":"23000","sqlMessage":"Column 'picture' cannot be null"}}
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:21:05.300Z
+        URL: /posts
+        HTTP Method: OPTIONS
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:21:05.303Z
+        URL: /posts
+        HTTP Method: POST
+        Request Body: {"title":"Un título para el post","content":"","picture":null}
+        Response Body: {"error":"Missing or invalid title, content, or picture. Picture size must be under 1MB."}
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:21:20.288Z
+        URL: /posts
+        HTTP Method: OPTIONS
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:21:20.300Z
+        URL: /posts
+        HTTP Method: POST
+        Request Body: {"title":"Un título para el post","content":"el final de the originals me va a partir el alma siempre","picture":null}
+        Response Body: {"success":false,"message":"Failed to create post","error":{"message":"Column 'picture' cannot be null","code":"ER_BAD_NULL_ERROR","errno":1048,"sql":"INSERT INTO vlog_posts (title, content, picture) VALUES ('Un título para el post', 'el final de the originals me va a partir el alma siempre', NULL)","sqlState":"23000","sqlMessage":"Column 'picture' cannot be null"}}
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:21:23.259Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:21:48.771Z
+        URL: /posts
+        HTTP Method: OPTIONS
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:21:48.786Z
+        URL: /posts
+        HTTP Method: POST
+        Request Body: {"title":"Un título para el post","content":"creo que el final de the originals me va a partir el alma siempre","picture":null}
+        Response Body: {"success":false,"message":"Failed to create post","error":{"message":"Column 'picture' cannot be null","code":"ER_BAD_NULL_ERROR","errno":1048,"sql":"INSERT INTO vlog_posts (title, content, picture) VALUES ('Un título para el post', 'creo que el final de the originals me va a partir el alma siempre', NULL)","sqlState":"23000","sqlMessage":"Column 'picture' cannot be null"}}
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:21:56.047Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: [{"id":10,"title":"Un título para el post","content":"Hola vlog jajaajja","picture":"https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2021/08/31/shrek-1.jpeg"},{"id":11,"title":"Un título para el post","content":"girl ya nadie hace los tv shows como antes, vamos a hablar de eso aquí mamis","picture":"https://assets.teenvogue.com/photos/5ddeb0c16f44a90008d035f5/master/pass/Ent-2010s-Shows_11-27_PROMO.jpg"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:22:14.836Z
+        URL: /posts
+        HTTP Method: OPTIONS
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:22:14.849Z
+        URL: /posts
+        HTTP Method: POST
+        Request Body: {"title":"Un título para el post","content":"el final de the originals me va a doler el alma siempre","picture":null}
+        Response Body: {"success":false,"message":"Failed to create post","error":{"message":"Column 'picture' cannot be null","code":"ER_BAD_NULL_ERROR","errno":1048,"sql":"INSERT INTO vlog_posts (title, content, picture) VALUES ('Un título para el post', 'el final de the originals me va a doler el alma siempre', NULL)","sqlState":"23000","sqlMessage":"Column 'picture' cannot be null"}}
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:23:05.363Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:23:22.042Z
+        URL: /posts
+        HTTP Method: OPTIONS
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:23:22.090Z
+        URL: /posts
+        HTTP Method: POST
+        Request Body: {"title":"Un título para el post","content":"el final the the originals me va a partir el alma para siempre","picture":null}
+        Response Body: {"success":false,"message":"Failed to create post","error":{"message":"Column 'picture' cannot be null","code":"ER_BAD_NULL_ERROR","errno":1048,"sql":"INSERT INTO vlog_posts (title, content, picture) VALUES ('Un título para el post', 'el final the the originals me va a partir el alma para siempre', NULL)","sqlState":"23000","sqlMessage":"Column 'picture' cannot be null"}}
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:24:03.649Z
+        URL: /posts
+        HTTP Method: OPTIONS
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:24:03.670Z
+        URL: /posts
+        HTTP Method: POST
+        Request Body: {"title":"Un título para el post","content":"el final the the originals me va a partir el alma para siempre. Y'all finna catch a girl crying every time","picture":"https://ew.com/thmb/EmoCwllz1pMBHj3Dy3YHu6XreGg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/or513c_0232b-2000-3fa62513ba0148bd82370751e10401f2.jpg"}
+        Response Body: {"success":true,"message":"Post created successfully","postId":12}
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:24:04.195Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: [{"id":10,"title":"Un título para el post","content":"Hola vlog jajaajja","picture":"https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2021/08/31/shrek-1.jpeg"},{"id":11,"title":"Un título para el post","content":"girl ya nadie hace los tv shows como antes, vamos a hablar de eso aquí mamis","picture":"https://assets.teenvogue.com/photos/5ddeb0c16f44a90008d035f5/master/pass/Ent-2010s-Shows_11-27_PROMO.jpg"},{"id":12,"title":"Un título para el post","content":"el final the the originals me va a partir el alma para siempre. Y'all finna catch a girl crying every time","picture":"https://ew.com/thmb/EmoCwllz1pMBHj3Dy3YHu6XreGg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/or513c_0232b-2000-3fa62513ba0148bd82370751e10401f2.jpg"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:24:52.445Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: [{"id":10,"title":"Un título para el post","content":"Hola vlog jajaajja","picture":"https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2021/08/31/shrek-1.jpeg"},{"id":11,"title":"Un título para el post","content":"girl ya nadie hace los tv shows como antes, vamos a hablar de eso aquí mamis","picture":"https://assets.teenvogue.com/photos/5ddeb0c16f44a90008d035f5/master/pass/Ent-2010s-Shows_11-27_PROMO.jpg"},{"id":12,"title":"Un título para el post","content":"el final the the originals me va a partir el alma para siempre. Y'all finna catch a girl crying every time","picture":"https://ew.com/thmb/EmoCwllz1pMBHj3Dy3YHu6XreGg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/or513c_0232b-2000-3fa62513ba0148bd82370751e10401f2.jpg"}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:25:00.061Z
+        URL: /posts
+        HTTP Method: OPTIONS
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:25:00.078Z
+        URL: /posts
+        HTTP Method: POST
+        Request Body: {"title":"Un título para el post","content":"en otro universo","picture":""}
+        Response Body: {"success":true,"message":"Post created successfully","postId":13}
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:25:00.616Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: [{"id":10,"title":"Un título para el post","content":"Hola vlog jajaajja","picture":"https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2021/08/31/shrek-1.jpeg"},{"id":11,"title":"Un título para el post","content":"girl ya nadie hace los tv shows como antes, vamos a hablar de eso aquí mamis","picture":"https://assets.teenvogue.com/photos/5ddeb0c16f44a90008d035f5/master/pass/Ent-2010s-Shows_11-27_PROMO.jpg"},{"id":12,"title":"Un título para el post","content":"el final the the originals me va a partir el alma para siempre. Y'all finna catch a girl crying every time","picture":"https://ew.com/thmb/EmoCwllz1pMBHj3Dy3YHu6XreGg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/or513c_0232b-2000-3fa62513ba0148bd82370751e10401f2.jpg"},{"id":13,"title":"Un título para el post","content":"en otro universo","picture":""}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:25:20.770Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {"title":"Un título para el post","content":"pruebele ahi","picture":""}
+        Response Body: [{"id":10,"title":"Un título para el post","content":"Hola vlog jajaajja","picture":"https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2021/08/31/shrek-1.jpeg"},{"id":11,"title":"Un título para el post","content":"girl ya nadie hace los tv shows como antes, vamos a hablar de eso aquí mamis","picture":"https://assets.teenvogue.com/photos/5ddeb0c16f44a90008d035f5/master/pass/Ent-2010s-Shows_11-27_PROMO.jpg"},{"id":12,"title":"Un título para el post","content":"el final the the originals me va a partir el alma para siempre. Y'all finna catch a girl crying every time","picture":"https://ew.com/thmb/EmoCwllz1pMBHj3Dy3YHu6XreGg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/or513c_0232b-2000-3fa62513ba0148bd82370751e10401f2.jpg"},{"id":13,"title":"Un título para el post","content":"en otro universo","picture":""}]
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:25:39.373Z
+        URL: /posts/13
+        HTTP Method: DELETE
+        Request Body: {"title":"Un título para el post","content":"pruebele ahi","picture":""}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:25:42.136Z
+        URL: /posts/10
+        HTTP Method: DELETE
+        Request Body: {"title":"Un título para el post","content":"pruebele ahi","picture":""}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-03-31T09:25:46.849Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: [{"id":11,"title":"Un título para el post","content":"girl ya nadie hace los tv shows como antes, vamos a hablar de eso aquí mamis","picture":"https://assets.teenvogue.com/photos/5ddeb0c16f44a90008d035f5/master/pass/Ent-2010s-Shows_11-27_PROMO.jpg"},{"id":12,"title":"Un título para el post","content":"el final the the originals me va a partir el alma para siempre. Y'all finna catch a girl crying every time","picture":"https://ew.com/thmb/EmoCwllz1pMBHj3Dy3YHu6XreGg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/or513c_0232b-2000-3fa62513ba0148bd82370751e10401f2.jpg"}]
+        ------------------------------
+    
+        Timestamp: 2024-04-02T23:19:04.609Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: {"message":"","code":"ECONNREFUSED"}
+        ------------------------------
+    
+        Timestamp: 2024-04-02T23:19:50.202Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: [{"id":11,"title":"Un título para el post","content":"girl ya nadie hace los tv shows como antes, vamos a hablar de eso aquí mamis","picture":"https://assets.teenvogue.com/photos/5ddeb0c16f44a90008d035f5/master/pass/Ent-2010s-Shows_11-27_PROMO.jpg"},{"id":12,"title":"Un título para el post","content":"el final the the originals me va a partir el alma para siempre. Y'all finna catch a girl crying every time","picture":"https://ew.com/thmb/EmoCwllz1pMBHj3Dy3YHu6XreGg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/or513c_0232b-2000-3fa62513ba0148bd82370751e10401f2.jpg"}]
+        ------------------------------
+    
+        Timestamp: 2024-04-03T02:09:57.845Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: [{"id":11,"title":"Un título para el post","content":"girl ya nadie hace los tv shows como antes, vamos a hablar de eso aquí mamis","picture":"https://assets.teenvogue.com/photos/5ddeb0c16f44a90008d035f5/master/pass/Ent-2010s-Shows_11-27_PROMO.jpg"},{"id":12,"title":"Un título para el post","content":"el final the the originals me va a partir el alma para siempre. Y'all finna catch a girl crying every time","picture":"https://ew.com/thmb/EmoCwllz1pMBHj3Dy3YHu6XreGg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/or513c_0232b-2000-3fa62513ba0148bd82370751e10401f2.jpg"}]
+        ------------------------------
+    
+        Timestamp: 2024-04-03T03:11:44.834Z
+        URL: /posts
+        HTTP Method: OPTIONS
+        Request Body: {}
+        Response Body: 
+        ------------------------------
+    
+        Timestamp: 2024-04-03T03:11:44.907Z
+        URL: /posts
+        HTTP Method: POST
+        Request Body: {"title":"Un título para el post","content":"hola","picture":""}
+        Response Body: {"success":true,"message":"Post created successfully","postId":14}
+        ------------------------------
+    
+        Timestamp: 2024-04-03T03:11:45.793Z
+        URL: /posts
+        HTTP Method: GET
+        Request Body: {}
+        Response Body: [{"id":11,"title":"Un título para el post","content":"girl ya nadie hace los tv shows como antes, vamos a hablar de eso aquí mamis","picture":"https://assets.teenvogue.com/photos/5ddeb0c16f44a90008d035f5/master/pass/Ent-2010s-Shows_11-27_PROMO.jpg"},{"id":12,"title":"Un título para el post","content":"el final the the originals me va a partir el alma para siempre. Y'all finna catch a girl crying every time","picture":"https://ew.com/thmb/EmoCwllz1pMBHj3Dy3YHu6XreGg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/or513c_0232b-2000-3fa62513ba0148bd82370751e10401f2.jpg"},{"id":14,"title":"Un título para el post","content":"hola","picture":""}]
+        ------------------------------
+    
