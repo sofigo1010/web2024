@@ -18,7 +18,7 @@ Para poner en marcha el proyecto localmente, sigue estos pasos:
 1. **Clona el Repositorio**:
    ```bash
    git clone https://github.com/sofigo1010/web2024.git
-   cd web2024/vlogpt2 `
+   cd web2024/vlogpt2 
 
 1.  API y Configuración del Servidor:
 
