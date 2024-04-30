@@ -30,7 +30,7 @@ Para poner en marcha el proyecto localmente, sigue estos pasos:
 2.  Configuración de la Página Web:
 
     ```bash
-    cd /vlogfinal
+    cd vlogfinal
     npm install
     npm run dev
 
