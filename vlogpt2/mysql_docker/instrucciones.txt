@@ -1,0 +1,5 @@
+crear la imagen
+docker build -t vlog .
+
+levantarlo
+docker run --name mysql_vlog -d -p 13027:3306 vlog
