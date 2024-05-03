@@ -1,0 +1,27 @@
+.skeleton-post {
+    background-color: #161619; 
+    border-radius: 10px;
+    margin: 10px;
+    padding: 16px;
+    width: 100%;
+    max-width: 300px; 
+  }
+  
+  .skeleton-image {
+    background-color: #1da1f2; 
+    height: 200px; 
+    border-radius: 5px;
+    margin-bottom: 8px;
+  }
+  
+  .skeleton-text {
+    background-color: #333; 
+    height: 20px; 
+    margin-bottom: 8px;
+    width: 90%;
+  }
+  
+  .skeleton-text.short {
+    width: 60%;
+  }
+  
