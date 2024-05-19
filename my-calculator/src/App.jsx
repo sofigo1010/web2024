@@ -1,4 +1,3 @@
-// src/App.jsx
 import React from 'react';
 import Calculator from './components/Calculator';
 import Title from './components/Title';

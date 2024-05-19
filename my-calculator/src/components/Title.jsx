@@ -1,4 +1,3 @@
-// src/components/Title.jsx
 import React from 'react';
 import './Title.css';
 

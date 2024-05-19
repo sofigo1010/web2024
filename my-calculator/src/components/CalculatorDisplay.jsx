@@ -1,4 +1,3 @@
-// src/components/CalculatorDisplay.jsx
 import React from 'react';
 import './CalculatorDisplay.css';
 

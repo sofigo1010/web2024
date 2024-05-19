@@ -1,5 +1,3 @@
-// src/stories/CalculatorButtons.stories.jsx
-
 import React from 'react';
 import CalculatorButtons from '../components/CalculatorButtons';
 

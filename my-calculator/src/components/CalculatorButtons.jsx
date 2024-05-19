@@ -1,4 +1,3 @@
-// src/components/CalculatorButtons.jsx
 import React from 'react';
 import './CalculatorButtons.css';
 
