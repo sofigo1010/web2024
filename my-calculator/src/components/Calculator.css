@@ -1,0 +1,10 @@
+/* src/components/Calculator.css */
+.calculator {
+    width: 260px;
+    margin: 50px auto;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #1e3c72, #2a5298);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  

@@ -1,0 +1,21 @@
+/* src/components/Title.css */
+.title-container {
+    background-image: url('/mnt/data/image.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid white;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 3em;
+    color: white; /* Texto blanco */
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+
+  

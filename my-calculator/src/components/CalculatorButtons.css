@@ -1,0 +1,35 @@
+/* src/components/CalculatorButtons.css */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    background: #9c88ff;
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover, button.active {
+    background: #8c7ae6;
+  }
+  
+  button:nth-child(17) {
+    grid-column: span 2;
+  }
+  
+  button:nth-child(19) {
+    background: #e84118;
+    color: white;
+  }
+  
+  button:nth-child(19):hover, button:nth-child(19).active {
+    background: #c23616;
+  }
+  
